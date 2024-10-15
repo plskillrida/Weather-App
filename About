@@ -4,3 +4,12 @@ With a focus on performance, reliability, and security, Indra provides a seamles
 The system's scalability accommodates growing data and user demands, while its cross-platform compatibility ensures widespread accessibility.
 Indra embodies a commitment to usability, maintainability, and compliance with regulatory standards,
 making it a robust and indispensable tool for individuals seeking reliable weather insights in their daily lives.
+
+Built with Python for the frontend, json, Python and MySQL for backend, and integrates with OpenWeatherMap API for accurate weather data.
+
+Note: Requires internet connection for live updates.
+
+Version: 1.0.0
+Author: Rida Fatima
+
+For detailed API documentation, visit www. https://openweathermap.org/guide.
