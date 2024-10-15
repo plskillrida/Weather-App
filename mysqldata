@@ -1,0 +1,53 @@
+CREATE DATABASE weather;
+USE weather;
+CREATE TABLE record(year integer, cityname char(30), avg_rain varchar(20), avg_temp varchar(20), avg_windspeed varchar(20));
+INSERT INTO record
+Values(2018, 'bangalore', '12.8 mm', '23.9 C', '5.5 m/s');
+INSERT INTO record
+Values(2018, 'chennai', '104 mm', '30 C', '4 m/s');
+INSERT INTO record
+Values(2018, 'mumbai', '186.5 mm', '28.5 C', '9.7 m/s');
+INSERT INTO record
+Values(2018, 'delhi', '66.3 mm', '24.5 C', '17 m/s');
+INSERT INTO record
+Values(2018, 'hyderabad', '53 mm', '21 C', '8.2 m/s');
+INSERT INTO record
+Values(2019, 'bangalore', '8 mm', '24.5 C', '4.9 m/s');
+INSERT INTO record
+Values(2019, 'chennai', '130 mm', '30.5 C', '10 m/s');
+INSERT INTO record
+Values(2019, 'mumbai', '315 mm', '26.5 C', '7 m/s');
+INSERT INTO record
+Values(2019, 'delhi', '52.4 mm', '24 C', '4 m/s');
+INSERT INTO record
+Values(2019, 'hyderabad', '74.5 mm', '26.5 C', '5.8 m/s');
+INSERT INTO record
+Values(2020, 'bangalore', '71 mm', '24.1 C', '4 m/s');
+INSERT INTO record
+Values(2020, 'chennai', '151 mm', '31 C', '4.3 m/s');
+INSERT INTO record
+Values(2020, 'mumbai', '311.9 mm', '26.5 C', '10 m/s');
+INSERT INTO record
+Values(2020, 'delhi', '71.6 mm', '26 C', '5 m/s');
+INSERT INTO record
+Values(2020, 'hyderabad', '113.4 mm', '26.5 C', '7.3 m/s');
+INSERT INTO record
+Values(2021, 'bangalore', '277.8 mm', '23.9 C', '4.8 m/s');
+INSERT INTO record
+Values(2021, 'chennai', '20.6 mm', '30 C', '3.8 m/s');
+INSERT INTO record
+Values(2021, 'mumbai', '290 mm', '29 C', '6.9 m/s');
+INSERT INTO record
+Values(2021, 'delhi', '132.7 mm', '23.3 C', '3.5 m/s');
+INSERT INTO record
+Values(2021, 'hyderabad', '93.5 mm', '25.5 C', '14.2 m/s');
+INSERT INTO record
+Values(2022, 'bangalore', '59.8 mm', '23.7 C', '5.4 m/s');
+INSERT INTO record
+Values(2022, 'chennai', '151 mm', '30 C', '3.8 m/s');
+INSERT INTO record
+Values(2018, 'mumbai', '223.5 mm', '26.5 C', '3.2 m/s');
+INSERT INTO record
+Values(2018, 'delhi', '75.3 mm', '25.5 C', '5.2 m/s');
+INSERT INTO record
+Values(2018, 'hyderabad', '81 mm', '25.5 C', '4.2 m/s');
